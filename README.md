@@ -8,14 +8,14 @@ This repo is just a small aggregation of steps that I followed and that worked s
 - Create a partition and a free space to allocate Ubuntu.
 - Disenable Device encryption & Standard BitLocker encryption [2]
 - Turn off the computer
-- Disenable the Fast Boot and the Secture Boot. When turning on, press f2 to enter the menu, then f7. In the Section Boot, disenable Fast Boot, and in Secturity, set Secure Boot Control on Disabled. Then press F10 to save. [3]
+- Disenable the Fast Boot and the Secure Boot. When turning on, press f2 to enter the menu, then f7. In section Boot, disenable Fast Boot, and in Security, set Secure Boot Control on Disabled. Then press F7 and then F10 to save. [3]
 - Connect the USB stick. Turn on the computer and press repeatedly f2. This will start the GRUB menu. Place the Flesh driver first in the order, close, and save. This will start the Ubuntu 24.04.
 - **Important**: In the ubuntu GRUB manyu, do not select, the first option but the (safe graphics) option. Otherwise, the installation will keep crashing [4].
-- During the installation, when asked, please do not use set the wifi. There is a bug and this will make your installation crash, you can activate the wifi later on.
+- During the installation, when asked, please do not use set the wifi. There is a bug, and this will make your installation crash; you can activate the wifi later on.
 
 ## Install a compatible kernel 6.12.0
 
-  To install the new kernel, I used the mainline kernel.
+  - Install the kernel 6.12 that is compatible with the modern hardware of your pc. 
 
   ```bash
   sudo apt update

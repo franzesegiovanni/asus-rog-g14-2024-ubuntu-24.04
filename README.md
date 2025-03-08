@@ -76,6 +76,11 @@ This should display ``` 6.12.0-061200-generic ```.
 
 - Check that the GPU was correctly updated using ``` nvidia-smi ```. If the drivers are installed correctly, the terminal will display GPU information and used memory.
 
+## How to switch between Ubuntu and Windows?
+
+When starting the computer, press ```Esc```repeatedly, and you will have a menu that lets you choose which operating system you want to boot.  
+
+## References 
 [1] https://ubuntu.com/tutorials/install-ubuntu-desktop#2-download-an-ubuntu-image. \
 [2] https://www.asus.com/support/faq/1047461/ \
 [3] https://www.asus.com/support/faq/1049829/ \
